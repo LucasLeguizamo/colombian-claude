@@ -1,0 +1,16 @@
+{
+  "name": "colombian-claude",
+  "description": "Claude Code mods with Colombian flavor.",
+  "owner": {
+    "name": "Lucas Leguizamo",
+    "url": "https://github.com/LucasLeguizamo"
+  },
+  "plugins": [
+    {
+      "name": "colombian-claude",
+      "source": "./",
+      "description": "Claude Code talks like a Colombian while it works: pick your accent, from rolo to costeño.",
+      "category": "fun"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "colombian-claude",
+  "version": "0.1.0",
+  "description": "Claude Code talks like a Colombian while it works: pick your accent, from rolo to costeño.",
+  "author": { "name": "Lucas Leguizamo", "url": "https://github.com/LucasLeguizamo" },
+  "homepage": "https://github.com/LucasLeguizamo/colombian-claude",
+  "repository": "https://github.com/LucasLeguizamo/colombian-claude",
+  "license": "MIT",
+  "keywords": ["colombia", "spinner", "fun", "mod", "spanish"],
+  "userConfig": {
+    "accent": {
+      "type": "string",
+      "title": "Accent",
+      "description": "Which Colombian accent the spinner speaks. 'mix' shuffles all of them.",
+      "default": "rolo",
+      "options": ["rolo", "paisa", "costeno", "caleno", "santandereano", "pastuso", "llanero", "boyacense", "mix"]
+    }
+  }
+}
